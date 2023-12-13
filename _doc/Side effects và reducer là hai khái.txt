@@ -1,0 +1,5 @@
+Side effects và reducer là hai khái niệm quan trọng trong React.
+
+Side effects: Là các tác động bên ngoài của component khi state của nó thay đổi. Ví dụ như gửi một yêu cầu AJAX để lấy dữ liệu mới từ máy chủ hoặc thay đổi tiêu đề của trang web. Trong React, chúng ta sử dụng hook useEffect để xử lý các side effect này1.
+
+Reducer: Là một hàm xử lý state của component. Nó nhận vào state hiện tại và một action, và trả về state mới sau khi thực hiện action đó. Trong React, chúng ta sử dụng hook useReducer để quản lý state của component2.

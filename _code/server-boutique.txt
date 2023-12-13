@@ -1,0 +1,21 @@
+Mailchimp API - 2648f4345d5943bbadd422b7dca04ddd-us21
+Mailchimp Client API - 47faa5e52eea4c285df0f1e0d2c2462a-us21
+smtp.mandrillapp.com - api-key: md-4wJ8K7zLdIOrccFZtTkt6w
+
+MongoDB: Create a database user using a username and password.
+username : nhoangkiet35, password : 2mif8aQalNaAfz0K
+
+SMTP server     smtp-relay.sendinblue.com
+Port            587
+Login           nhoangkiet35@gmail.com
+Password        4VOdmLI7U6xyfCqD
+
+hoangkiet smpt
+xsmtpsib-d2ea73b621c09db88a2c6dbe55c222b2a21571c6b50c0a4b8c4f515ddee0df3c-ZE8pR096arU5mLAt
+
+
+emailBuilder api
+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
+
+hoangkiet api
+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

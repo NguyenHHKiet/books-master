@@ -1,0 +1,61 @@
+ // calculate the months
+            function monthDiff(d1, d2) {
+                var months;
+                months = (d2.getFullYear() - d1.getFullYear()) * 12;
+                months -= d1.getMonth();
+                months += d2.getMonth();
+                return months <= 0 ? 0 : months;
+            }
+
+            function test(d1, d2) {
+                var diff = monthDiff(d1, d2);
+                console.log(
+                    d1.toISOString().substring(0, 10),
+                    "to",
+                    d2.toISOString().substring(0, 10),
+                    ":",
+                    diff
+                );
+            }
+
+            test(
+                new Date(2008, 10, 4), // November 4th, 2008
+                new Date(2010, 2, 12) // March 12th, 2010
+            );
+            // Result: 16
+
+            test(
+                new Date(2010, 0, 1), // January 1st, 2010
+                new Date(2010, 2, 12) // March 12th, 2010
+            );
+            // Result: 2
+
+            test(
+                new Date(2023, 2, 1), // February 1st, 2010
+                new Date(2023, 3, 12) // March 12th, 2010
+            );
+            // Result: 1
+
+
+ // JavaScript program to illustrate
+            // calculation of no. of days between two date
+
+            // To set two dates to two variables
+            var date1 = new Date("05/21/2023");
+            var date2 = new Date("07/5/2023");
+
+            // To calculate the time difference of two dates
+            var Difference_In_Time = date2.getTime() - date1.getTime();
+
+            // To calculate the no. of days between two dates
+            var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+
+            //To display the final no. of days (result)
+            console.log(
+                "Total number of days between dates: ",
+                date1,
+                " and ",
+                date2,
+                " is: ",
+                Difference_In_Days
+            );

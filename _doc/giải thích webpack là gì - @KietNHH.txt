@@ -1,0 +1,37 @@
+giải thích webpack là gì - @KietNHHFX20997 
+
+Webpack là một công cụ rất phổ biến trong quá trình phát triển ứng dụng web để xây dựng và quản lý các module và dependencies của mã nguồn JavaScript của bạn. Nó cho phép bạn tổ chức, đóng gói, tối ưu hóa và biên dịch mã nguồn JavaScript của bạn thành các bundle JavaScript đơn giản, tối ưu hóa để dễ dàng phát triển và triển khai.
+
+Webpack còn hỗ trợ một số tính năng khác như biên dịch các file CSS, images, và các file assets khác vào các bundle JavaScript đó. Nó cung cấp cho các lập trình viên công cụ để liên kết các plugins mở rộng để giúp tối ưu hóa và thực hiện các tác vụ đặc biệt khi xây dựng ứng dụng web của bạn.
+
+Webpack đã trở thành công cụ thiết yếu trong quá trình phát triển ứng dụng web hiện đại, giúp cho việc xây dựng và quản lý các ứng dụng web được dễ dàng, hiệu quả hơn và giảm thiểu tác động đến hiệu suất của ứng dụng.
+
+hãy so sách webpack với vite - @KietNHHFX20997 
+
+Webpack và Vite đều là các công cụ giúp xây dựng và quản lý các ứng dụng web. Tuy nhiên, chúng có những khác biệt cơ bản sau:
+
+1. Tốc độ: Vite là một công cụ được tối ưu hóa để tăng tốc độ xây dựng và phát triển các ứng dụng web. Vì vậy, nó có thể khởi động ứng dụng nhanh hơn so với Webpack.
+
+2. Cấu hình: Vì được thiết kế với mục đích tối ưu tốc độ, Vite có cấu hình đơn giản hơn so với Webpack. Người dùng có thể điều chỉnh các tùy chọn cơ bản nhưng không quá phức tạp.
+
+3. Giải pháp khác: Vite sử dụng Rollup để xử lý mã nguồn, trong khi Webpack sử dụng một phiên bản của webpack để thực hiện nhiệm vụ này. Rollup có thể xử lý các module tốt hơn so với Webpack. 
+
+4. Plugin: Webpack có một cộng đồng plugin đông đảo và phong phú. Tuy nhiên, Vite cũng có các plugin cơ bản có thể giúp các lập trình viên thực hiện nhiệm vụ cơ bản mà không cần phải bổ sung nhiều plugin.
+
+Tóm lại, Vite thường được sử dụng cho các ứng dụng web nhỏ và đơn giản và được tối ưu hóa cho tốc độ phát triển ứng dụng. Trong khi đó, Webpack thường được sử dụng cho các dự án lớn và phức tạp hơn và có nhiều plugin để giúp quản lý các tác vụ phức tạp hơn trong quá trình phát triển ứng dụng.
+
+
+giới thiệu về flexbox - @KietNHHFX20997 
+
+Flexbox là một công nghệ layout CSS giúp cho việc sắp xếp các phần tử trong một container trở nên dễ dàng hơn. Với Flexbox, bạn có thể xác định cách sắp xếp, căn giữa, định vị và sắp xếp các phần tử con trong một container bằng cách sử dụng một số thuộc tính CSS. 
+
+Một số thuộc tính Flexbox:
+
+1. display: flex; - xác định container là một flex container.
+2. flex-direction: row/row-reverse/column/column-reverse; - xác định hướng của các phần tử con sắp xếp trong container.
+3. justify-content: flex-start/flex-end/center/space-between/space-around/space-evenly; - xác định cách các phần tử trong container tương tác với nhau dọc theo trục chính.
+4. align-items: stretch/flex-start/flex-end/center/baseline; - xác định cách các phần tử trong container tương tác với nhau dọc theo trục phụ.
+5. flex-grow: number; - xác định tỷ lệ phần trăm của khoảng trống được phân bổ cho các phần tử con.
+6. order: number; - xác định thứ tự hiển thị của các phần tử con trong container.
+
+Flexbox đang trở thành tiêu chuẩn mới trong cách sắp xếp các phần tử trong một website hoặc ứng dụng web. Nó cung cấp một cách tiện lợi để xây dựng các layout linh hoạt và linh hoạt hơn so với float và inline-block truyền thống.

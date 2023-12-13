@@ -1,0 +1,7 @@
+Có, axios và fetch đều có thể được sử dụng để thay thế AJAX trong việc tải và giao tiếp dữ liệu từ máy chủ. Cả hai đều hỗ trợ các yêu cầu HTTP như GET, POST và PUT, và có thể xử lý dữ liệu trong các định dạng như JSON.
+
+Axios là một thư viện HTTP dựa trên promise thông qua XMLHTTPRequest và cung cấp cho chúng ta một cách ánh xạ các phản hồi HTTP thành các đối tượng Javascript dễ dàng sử dụng. Nó có thể hoạt động cả trên trình duyệt và Node.js. Axios đơn giản và dễ sử dụng, với cú pháp rõ ràng và hỗ trợ cho việc xử lý các lỗi và hủy bỏ yêu cầu.
+
+Fetch cũng là một API cho phép tải tài nguyên từ mạng. Nó cung cấp một cách đơn giản và mạnh mẽ để thực hiện yêu cầu HTTP bằng cách sử dụng promise. Tuy nhiên, fetch trả về một promise mặc định không xử lý lỗi HTTP như thiếu kết nối hay mã lỗi trong phạm vi 200-299. Điều này có nghĩa rằng bạn sẽ cần thêm xử lý lỗi bổ sung khi sử dụng fetch.
+
+Cả hai thư viện đều có những ưu điểm và hạn chế riêng. Sự lựa chọn giữa axios và fetch phụ thuộc vào yêu cầu và sở thích của bạn.

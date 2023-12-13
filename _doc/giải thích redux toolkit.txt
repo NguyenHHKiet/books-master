@@ -1,0 +1,10 @@
+giải thích redux toolkit
+các chức năng chính của redux toolkit
+cho ví dụ về redux toolkit
+sử dụng Redux toolkit thay thế cho Redux
+Làm việc với nhiều Slice của redux toolkit
+làm sao gọi được redux toolkit ra sử dụng
+làm sao sử dụng dispatch trong redux toolkit
+So sánh và thay thế các thành phần của Redux bằng các thành phần mạnh mẽ hơn trong Redux Toolkit
+Giới thiệu Redux Toolkit, thiết lập sử dụng cho ứng dụng React
+các bước thiết lập redux toolkit trong react

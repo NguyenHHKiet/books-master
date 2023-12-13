@@ -1,0 +1,13 @@
+SQL (Structured Query Language) database và NoSQL (Not Only SQL) database là hai loại cơ sở dữ liệu khác nhau. Dưới đây là một số điểm khác biệt chính giữa chúng:
+
+Mô hình dữ liệu: SQL database sử dụng mô hình dữ liệu có cấu trúc, thường dựa trên hệ thống quan hệ (relations) và bảng để lưu trữ dữ liệu. Dữ liệu trong SQL database được tổ chức thành các bảng với các hàng và cột có kiểu dữ liệu cố định. Trong khi đó, NoSQL database không yêu cầu mô hình dữ liệu có cấu trúc và có thể lưu trữ dữ liệu dưới dạng tài liệu (document), cặp khóa-giá trị (key-value), cột gia tăng (column-family), hoặc đồ thị (graph).
+
+Quan hệ (Relations): SQL database dựa trên cơ sở dữ liệu quan hệ, với khả năng thiết lập quan hệ giữa các bảng thông qua khóa ngoại (foreign key). Quan hệ này giúp thực hiện các thao tác JOIN và giải quyết các mối quan hệ phức tạp. Trong khi đó, NoSQL database không có tính năng này và quan hệ giữa dữ liệu có thể được giải quyết bằng cách nhúng dữ liệu hoặc sử dụng khóa ngoại ảo.
+
+Khả năng mở rộng: SQL database thường khó mở rộng theo chiều ngang (horizontal scaling) khi tải trọng tăng lên, điều này thường yêu cầu phân vùng (sharding) và replica. Trong khi đó, NoSQL database thường dễ dàng mở rộng theo chiều ngang, cho phép xử lý tải trọng lớn và mở rộng hệ thống một cách linh hoạt.
+
+Nhất quán dữ liệu (Consistency): SQL database thường thực hiện chế độ nhất quán dữ liệu (ACID) mạnh, có nghĩa là đảm bảo tính nhất quán và độ tin cậy cao cho dữ liệu. Trong khi đó, NoSQL database thường áp dụng chế độ nhất quán dữ liệu yếu (BASE), cho phép độ trễ và không đảm bảo nhất quán tuyệt đối trong môi trường phân tán.
+
+Tính linh hoạt: NoSQL database thường rất linh hoạt trong việc thay đổi cấu trúc dữ liệu một cách linh hoạt, không yêu cầu sự thay đổi cấu trúc chuẩn. SQL database có sự mở rộng về tính năng và có thể đáp ứng nhiều mục đích ứng dụng khác nhau.
+
+Tuy nhiên, sự lựa chọn giữa SQL database và NoSQL database phụ thuộc vào yêu cầu của dự án. SQL database thích hợp cho các ứng dụng với quan hệ phức tạp và tính nhất quán cao, trong khi NoSQL database thích hợp cho các ứng dụng cần mở rộng theo chiều ngang, tính linh hoạt với dữ liệu không có cấu trúc rõ ràng.
